@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "tt1";
+  src: url("../../fonts/Mayonice.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "tt2";
+  src: url("../../fonts/PerfectGirl-SansSerif.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "tt3";
+  src: url("../../fonts/PerfectGirl-Script.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "tt4";
+  src: url("../../fonts/aflfont.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "tt5";
+  src: url("../../fonts/daisywhl.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-tt1: "tt1", sans-serif;
+  --font-tt2: "tt2", sans-serif;
+  --font-tt3: "tt3", cursive;
+  --font-tt4: "tt4", sans-serif;
+  --font-tt5: "tt5", sans-serif;
+}
